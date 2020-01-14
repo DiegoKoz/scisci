@@ -1,0 +1,62 @@
+---
+title: "Debugging counts"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+# library(haven)
+#df_2010 <- read_dta("data/file4_2010_cln_01_sn_20140320.dta")
+# saveRDS(df_2010,'data/df_2010.RDS')
+```
+
+```{r}
+df_2010 <- read_rds('data/df_2010.RDS')
+
+glimpse(df_2010)
+```
+
+```{r}
+df_2010 %>% 
+  group_by(country) %>% 
+  summarise(n = n()) %>% 
+  arrange(-n)
+```
+
+```{r}
+df_ger <- df_2010 %>% 
+  filter(cntrcode=='DEU')
+glimpse(df_ger)
+```
+
+```{r}
+art_ger <- df_ger %>% 
+  filter(k_code=='@')
+glimpse(art_ger)
+```
+
+Number of unique articles:
+```{r}
+length(unique(art_ger$ut))
+```
+
+
+Number of unique combinations of ut and organizations
+```{r}
+nrow(unique(art_ger[,c('ut','organization')]))
+```
+
+or
+
+```{r}
+art_ger %>% 
+  group_by(ut, organization) %>% 
+  summarise(n=n())
+```
+Which has 116,484 rows
+
+
+
+
+
