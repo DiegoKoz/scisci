@@ -36,13 +36,21 @@ art_ger <- df_ger %>%
 glimpse(art_ger)
 ```
 
-Number of unique articles:
+Number of unique articles (or first author counting)
 ```{r}
 length(unique(art_ger$ut))
 ```
 
+or
 
-Number of unique combinations of ut and organizations
+```{r}
+art_ger %>% 
+  distinct(ut) %>% 
+  nrow()
+```
+
+
+Number of unique combinations of ut and organizations (absolut count?)
 ```{r}
 nrow(unique(art_ger[,c('ut','organization')]))
 ```
@@ -51,10 +59,11 @@ or
 
 ```{r}
 art_ger %>% 
-  group_by(ut, organization) %>% 
-  summarise(n=n())
+  distinct(ut,organization) %>% 
+  nrow()
 ```
-Which has 116,484 rows
+
+I'm not removing duplicates. Just counting the unique combinations.
 
 
 
