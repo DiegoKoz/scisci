@@ -19,6 +19,21 @@ glimpse(df_2010)
 
 ```{r}
 df_2010 %>% 
+  filter(k_code=='@') %>% 
+  distinct(ut) %>% 
+  nrow()
+```
+
+```{r}
+df_2010 %>% 
+  filter(k_code=='@') %>% 
+  distinct(organization) %>% 
+  nrow()
+```
+
+
+```{r}
+df_2010 %>% 
   group_by(country) %>% 
   summarise(n = n()) %>% 
   arrange(-n)
@@ -66,6 +81,27 @@ art_ger %>%
 I'm not removing duplicates. Just counting the unique combinations.
 
 
+--------
+
+specific paper
+```{r}
+df_2010 %>% 
+  filter(ut=='000208195000002') %>% 
+  distinct(organization)
+```
 
 
+----------
+
+replicate of proportions
+
+```{r}
+art_ger %>% 
+  write_csv('data/germany.csv')
+```
+
+
+```{r}
+df_2010
+```
 
