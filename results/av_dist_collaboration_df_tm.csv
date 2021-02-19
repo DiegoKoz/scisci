@@ -1,0 +1,65 @@
+,collaboration_status_1,collaboration_status_2,publicationName_1,publicationName_2,cos_sim
+0,institutional_colab,institutional_colab,research policy,research policy,0.5448314143244044
+1,institutional_colab,institutional_colab,research policy,scientometrics,0.257580712813022
+2,institutional_colab,institutional_colab,scientometrics,research policy,0.2575807128130219
+3,institutional_colab,institutional_colab,scientometrics,scientometrics,0.38151386194034576
+4,institutional_colab,internal_colab,research policy,research policy,0.5574845460424701
+5,institutional_colab,internal_colab,research policy,scientometrics,0.2522684251349402
+6,institutional_colab,internal_colab,scientometrics,research policy,0.25763813841819866
+7,institutional_colab,internal_colab,scientometrics,scientometrics,0.38820500698680427
+8,institutional_colab,international_colab,research policy,research policy,0.5564065911131862
+9,institutional_colab,international_colab,research policy,scientometrics,0.25559362581883266
+10,institutional_colab,international_colab,scientometrics,research policy,0.25660078499906375
+11,institutional_colab,international_colab,scientometrics,scientometrics,0.38297253912149687
+12,institutional_colab,single_author,research policy,research policy,0.5620317263987042
+13,institutional_colab,single_author,research policy,scientometrics,0.2379297895492341
+14,institutional_colab,single_author,scientometrics,research policy,0.2472118968424428
+15,institutional_colab,single_author,scientometrics,scientometrics,0.37979793612358503
+16,internal_colab,institutional_colab,research policy,research policy,0.5574845460424702
+17,internal_colab,institutional_colab,research policy,scientometrics,0.2576381384181988
+18,internal_colab,institutional_colab,scientometrics,research policy,0.2522684251349404
+19,internal_colab,institutional_colab,scientometrics,scientometrics,0.3882050069868048
+20,internal_colab,internal_colab,research policy,research policy,0.577512650036489
+21,internal_colab,internal_colab,research policy,scientometrics,0.2527293788599968
+22,internal_colab,internal_colab,scientometrics,research policy,0.2527293788599968
+23,internal_colab,internal_colab,scientometrics,scientometrics,0.3948938193489155
+24,internal_colab,international_colab,research policy,research policy,0.5716693601598136
+25,internal_colab,international_colab,research policy,scientometrics,0.25626739623807504
+26,internal_colab,international_colab,scientometrics,research policy,0.25140561733889916
+27,internal_colab,international_colab,scientometrics,scientometrics,0.3894325253029344
+28,internal_colab,single_author,research policy,research policy,0.5860143730694508
+29,internal_colab,single_author,research policy,scientometrics,0.23995173927611196
+30,internal_colab,single_author,scientometrics,research policy,0.24189527775621497
+31,internal_colab,single_author,scientometrics,scientometrics,0.3869785113686188
+32,international_colab,institutional_colab,research policy,research policy,0.5564065911131864
+33,international_colab,institutional_colab,research policy,scientometrics,0.25660078499906364
+34,international_colab,institutional_colab,scientometrics,research policy,0.25559362581883266
+35,international_colab,institutional_colab,scientometrics,scientometrics,0.38297253912149726
+36,international_colab,internal_colab,research policy,research policy,0.5716693601598134
+37,international_colab,internal_colab,research policy,scientometrics,0.2514056173388992
+38,international_colab,internal_colab,scientometrics,research policy,0.2562673962380749
+39,international_colab,internal_colab,scientometrics,scientometrics,0.389432525302934
+40,international_colab,international_colab,research policy,research policy,0.5690064245930706
+41,international_colab,international_colab,research policy,scientometrics,0.25561692334462677
+42,international_colab,international_colab,scientometrics,research policy,0.2556169233446267
+43,international_colab,international_colab,scientometrics,scientometrics,0.386347926723751
+44,international_colab,single_author,research policy,research policy,0.5772253019743997
+45,international_colab,single_author,research policy,scientometrics,0.23645727740004605
+46,international_colab,single_author,scientometrics,research policy,0.2459544920159036
+47,international_colab,single_author,scientometrics,scientometrics,0.3791567604550657
+48,single_author,institutional_colab,research policy,research policy,0.5620317263987041
+49,single_author,institutional_colab,research policy,scientometrics,0.2472118968424426
+50,single_author,institutional_colab,scientometrics,research policy,0.23792978954923424
+51,single_author,institutional_colab,scientometrics,scientometrics,0.379797936123585
+52,single_author,internal_colab,research policy,research policy,0.5860143730694506
+53,single_author,internal_colab,research policy,scientometrics,0.24189527775621497
+54,single_author,internal_colab,scientometrics,research policy,0.2399517392761119
+55,single_author,internal_colab,scientometrics,scientometrics,0.3869785113686186
+56,single_author,international_colab,research policy,research policy,0.5772253019743996
+57,single_author,international_colab,research policy,scientometrics,0.24595449201590358
+58,single_author,international_colab,scientometrics,research policy,0.23645727740004602
+59,single_author,international_colab,scientometrics,scientometrics,0.3791567604550658
+60,single_author,single_author,research policy,research policy,0.5967024359048044
+61,single_author,single_author,research policy,scientometrics,0.23062937370575173
+62,single_author,single_author,scientometrics,research policy,0.23062937370575176
+63,single_author,single_author,scientometrics,scientometrics,0.3859294629303305

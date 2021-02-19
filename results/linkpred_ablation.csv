@@ -1,0 +1,8 @@
+without,AUC,AP
+first_author,0.91 (0.0),0.91 (0.0)
+affiliation,0.9 (0.01),0.9 (0.0)
+subject_area,0.9 (0.01),0.9 (0.01)
+topic_dist,0.9 (0.01),0.9 (0.01)
+coverDate,0.9 (0.0),0.9 (0.0)
+citations_at,0.89 (0.0),0.89 (0.0)
+bert,0.86 (0.0),0.87 (0.0)
