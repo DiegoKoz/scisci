@@ -1,10 +1,10 @@
-# The Science of Science Embedding Spaces: Deep Learning for Article Vectorisation
+# Semantic and Relational Spaces in Science of Science: Deep Learning Models for Article Vectorisation
 
 
 
 ## Repository structure
 
-This is the repository for the article "The Science of Science Embedding Spaces: Deep Learning for Article Vectorisation" and contain the following elements:
+This is the repository for the article "Semantic and Relational Spaces in Science of Science: Deep Learning Models for Article Vectorisation" and contains the following elements:
 
 - data: Articles ID's and embeddings, and
 - code: All the necesary code to reproduce the results presented in the article.
@@ -63,7 +63,7 @@ In order to reproduce the results, the scripts should be run in the order descri
 More information about the dataset and the guidelines can be found in the following article:
 
 
-Diego Kozlowski, Jennifer Dusdal, Jun Pang, Andreas Zilian (?). The Science of Science Embedding Spaces: Deep Learning for Article Vectorisation
+Diego Kozlowski, Jennifer Dusdal, Jun Pang, Andreas Zilian (2021). Semantic and Relational Spaces in Science of Science: Deep Learning Models for Article Vectorisation
 
 
 If you use any of the provided material in your work, please cite us as follows
@@ -71,7 +71,7 @@ If you use any of the provided material in your work, please cite us as follows
 
 ```
 @article{Kozlowski-et-al,
-title = "The Science of Science Embedding Spaces: Deep Learning for Article Vectorisation",
+title = "Semantic and Relational Spaces in Science of Science: Deep Learning Models for Article Vectorisation",
 journal = "?",
 volume = "?",
 number = "?",
